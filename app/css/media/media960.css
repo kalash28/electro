@@ -1,0 +1,10 @@
+@media screen and (max-width: 960px) {
+  .wrap-main {
+    width: 600px;
+  }
+  .header .header__menu .logo {
+    display: none;
+  }
+  .header__menu {
+    width: 400px;
+  }

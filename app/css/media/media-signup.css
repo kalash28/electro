@@ -1,0 +1,13 @@
+@media screen and (max-width: 600px) {
+  .signup__form {
+   width: 350px; 
+  }
+}
+@media screen and (max-width: 400px) {
+  .signup__form_header--text {
+    font-size: 32px;
+  }
+  .signup__form {
+   width: 280px; 
+  }
+}
