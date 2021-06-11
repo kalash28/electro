@@ -14,6 +14,10 @@
     <link rel="stylesheet" href="/app/css/default.css" />
     <link rel="stylesheet" href="/app/css/main.css" />
     <link rel="stylesheet" href="/app/css/header.css" />
+    <link rel="stylesheet" href="/app/css/blocks/features/features.css" />
+    <link rel="stylesheet" href="/app/css/blocks/features/__title/features__title.css" />
+    <link rel="stylesheet" href="/app/css/blocks/features/__list/features__list.css" />
+    <link rel="stylesheet" href="/app/css/blocks/features/__block/features__block.css" />
     <!-- Подключение адаптивности -->
     <link rel="stylesheet" href="/app/css/media.css" />
 
@@ -82,7 +86,27 @@
     </div>
 
     <main class="main">
-      <!-- ШАПКА -->
+      <section class="features">
+        <p class="features__title">Наши преимущества</p>
+        <div class="features__list">
+          <div class="features__block">
+            <img class="features__icon" src="app/icons/features_save.svg" alt="">
+            <p class="features__text">Надежность</p>
+          </div>
+          <div class="features__block">
+            <img class="features__icon" src="app/icons/features_garant.svg" alt="">
+            <p class="features__text">Гарантия</p>
+          </div>
+          <div class="features__block">
+            <img class="features__icon" src="app/icons/features_guard.svg" alt="">
+            <p class="features__text">Безопасность</p>
+          </div>
+          <div class="features__block">
+            <img class="features__icon" src="app/icons/features_speed.svg" alt="">
+            <p class="features__text">Скорость</p>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>

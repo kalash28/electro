@@ -7,7 +7,9 @@ body {
   overflow-x: hidden;
   font-family: "Open Sans";
 }
-
+.main {
+  margin: 0 auto;
+}
 .wrap-main {
   margin: 0 auto;
   width: 1659px;
